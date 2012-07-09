@@ -1,0 +1,24 @@
+//site fonts
+@mixin decorative{font-family: "bello-pro"}
+@mixin monospace{font-family: "bello-pro"}
+@mixin sans-serif{font-family: "nimbus-sans"}
+@mixin serif{font-family: "Garamond", "Times New Roman", serif}
+
+
+@mixin sprite($pos){
+	background:url(../images/sprite.png) no-repeat $pos;
+}
+ 
+@mixin transition($transition){
+	transition: $transition;
+	-moz-transition: $transition; 
+	-webkit-transition: $transition;
+	-o-transition: $transition;
+}
+
+@mixin transition-delay($delay){
+	transition-delay: $delay ;
+	-moz-transition-delay: $delay; /* Firefox 4 */
+	-webkit-transition-delay: $delay; /* Safari and Chrome */
+	-o-transition-delay: $delay ; /* Opera */
+}
