@@ -1,0 +1,34 @@
+/* humanstxt.org */
+
+
+
+/* TEAM */
+
+	Site Design: 
+	Site: 
+	Twitter:
+	Location:
+
+  	Front-End Develpoment: 
+  	Site: 
+  	Twitter: 
+  	Location: 
+
+  	Back-End Develpoment:
+  	Site:
+  	Twitter:
+  	Location:
+
+  	Flash Develpoment:
+  	Site:
+  	Twitter:
+  	Location:
+
+
+/* THANKS */
+  	Names (& URL): 
+
+/* SITE */
+  	Standards: HTML5, CSS3
+  	Components: html5shiv, jQuery
+

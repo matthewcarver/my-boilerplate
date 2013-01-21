@@ -1,0 +1,24 @@
+//site fonts
+@mixin decorative{font-family:;}
+@mixin monospace{font-family:;}
+@mixin sans-serif{font-family:;}
+@mixin serif{font-family:;}
+
+
+@mixin sprite($pos){
+	background:url(../images/sprite.png) no-repeat $pos;
+}
+ 
+@mixin transition($transition){
+	transition: $transition;
+	-moz-transition: $transition; 
+	-webkit-transition: $transition;
+	-o-transition: $transition;
+}
+
+@mixin transition-delay($delay){
+	transition-delay: $delay ;
+	-moz-transition-delay: $delay; 
+	-webkit-transition-delay: $delay;
+	-o-transition-delay: $delay ; 
+}
